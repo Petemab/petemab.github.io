@@ -1,3 +1,13 @@
+#mainTitle {
+  font-size: 75px; }
 
+section.hero.is-dark.is-bold.is-medium.has-bg-img {
+  background-image: url("../assets/laptop2.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover; }
+
+.redLine {
+  background-color: red; }
 
 /*# sourceMappingURL=style.css.map */
