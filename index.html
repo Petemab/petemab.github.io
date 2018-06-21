@@ -4,75 +4,82 @@
     <meta charset="utf-8">
     <title>My Portfolio</title>
     <link rel="stylesheet" href="./css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab" rel="stylesheet">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
   </head>
   <body>
-    <section class="hero is-dark is-bold is-medium has-bg-img">
+    <section class="hero is-bold is-medium">
   <!-- Hero head: will stick at the top -->
-  <div class="hero-head">
-    <nav class="navbar">
-      <div class="container">
-        <div class="navbar-brand">
-          <a class="navbar-item">
-            <img src="" alt="Logo">
-          </a>
-          <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-            <span></span>
-            <span></span>
-            <span></span>
-          </span>
-        </div>
-        <div id="navbarMenuHeroA" class="navbar-menu">
-          <div class="navbar-end">
-            <a class="navbar-item">
-              About Me
-            </a>
-            <a class="navbar-item">
-              ME ME ME
-            </a>
-            <a class="navbar-item">
-              Contact Me
-            </a>
+      <div class="hero-head">
+        <nav class="navbar">
+          <div class="container">
+            <div class="navbar-brand">
+              <a class="navbar-item">
+                <img src="" alt="Logo">
+              </a>
+              <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                <span></span>
+                <span></span>
+                <span></span>
+              </span>
+            </div>
+            <div id="navbarMenuHeroA" class="navbar-menu">
+              <div class="navbar-end">
+                <a class="navbar-item">
+                  About Me
+                </a>
+                <a class="navbar-item">
+                  Some of my work
+                </a>
+                <a class="navbar-item">
+                  Other Stuff
+                </a>
+                <a class="navbar-item">
+                  Contact Me
+                </a>
+              </div>
+            </div>
+          </div>
+        </nav>
+      </div>
+
+  <!-- Hero content: will be in the middle -->
+      <div class="hero-body">
+        <div class="container">
+          <div class="columns">
+            <div class="column is-two-thirds has-text-centered">
+              <h1 id="mainTitle" class="title">
+                petemabennett.com
+              </h1>
+
+              <h2 class="subtitle mainSubtitle">
+                Hello, I'm Pete, nice to meet you...
+              </h2>
+            </div>
+            <div class="column is-one-third">
+            </div>
           </div>
         </div>
       </div>
-    </nav>
-  </div>
+    </section>
 
-  <!-- Hero content: will be in the middle -->
-  <div class="hero-body">
-    <div class="container has-text-left">
-      <h1 id="mainTitle" class="title">
-        petemabennett.com
-      </h1>
-      <h2 class="subtitle">
-        Hello, nice to meet you...
-      </h2>
-      <hr class="redLine"/>
-    </div>
-  </div>
-
-  <!-- Hero footer: will stick at the bottom -->
-  <!-- <div class="hero-foot">
-    <nav class="tabs">
-      <div class="container">
-        <ul>
-          <li class="is-active"><a>Overview</a></li>
-          <li><a>Modifiers</a></li>
-          <li><a>Grid</a></li>
-          <li><a>Elements</a></li>
-          <li><a>Components</a></li>
-          <li><a>Layout</a></li>
-        </ul>
-      </div>
-    </nav>
-  </div> -->
-</section>
+    <main>
+      <container class="columns firstContainer">
+        <div class="column is-one-third skills">
+          <h2 class="subtitle skillsSubtitle">
+            SKILLS
+          </h2>
+        </div>
+        <div class="column is-two-thirds about">
+        </div>
+      </container>
+    </main>
 
 
-    <main class="wrapper">
+
+    <!-- <main class="wrapper">
       <section class="section parallax bg1">
         <h1 class="title">
           Pete Bennett
@@ -155,7 +162,7 @@
           <h2>Contact me</h2>
         </section>
 
-    </main>
+    </main> -->
 
 
   </body>

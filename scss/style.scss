@@ -1,18 +1,51 @@
+.title, .subtitle{
+  font-family: 'Roboto Slab', serif;
+}
+
+a.navbar-item {
+  font-family: 'Roboto', sans-serif;
+  color: white;
+}
+
 #mainTitle {
-  font-size: 75px;
+  font-size: 70px;
+  color: white;
+  border: solid;
+  padding-bottom: 15px;
+  margin-bottom: 20px;
 }
 
-section.hero.is-dark.is-bold.is-medium.has-bg-img {
-  background-image: url("../assets/laptop2.jpg");
-  background-repeat: no-repeat;
-  background-position: center;
-  background-size: cover;
+
+h2.subtitle.mainSubtitle {
+  color: white;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  border-bottom: solid;
+  border-left: solid;
+  border-right: solid;
+
 }
 
-.redLine{
-  background-color: red;
-
+section.hero.is-bold.is-medium {
+  background: #8B0000;
+  background: linear-gradient(to bottom right, #8B0000, red);
+  // background-position: center;
+  // background-size: cover;
 }
+
+container.columns.firstContainer {
+  margin-top: 0;
+}
+
+div.column.is-one-third.skills {
+  background: #696969;
+  background: linear-gradient(to bottom right, #696969, #808080);
+}
+
+h2.subtitle.skillsSubtitle {
+  color: white;
+}
+
 
 // .wrapper {
 //   /* The height needs to be set to a fixed value for the effect to work.
