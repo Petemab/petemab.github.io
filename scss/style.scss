@@ -19,12 +19,24 @@ a.navbar-item {
   margin-bottom: 20px;
 }
 
-div.column.is-2.is-offset-5.triangle-down {
-	width: 0;
+.triangle-down1 {
+  width: 0;
 	height: 0;
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
 	border-top: 50px solid #c32d28;
+}
+
+.triangle-down2 {
+  width: 0;
+	height: 0;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	border-top: 50px solid #db332e;
+}
+
+div.column.is-2.has-text-centered {
+  padding-left: 50px;
 }
 
 i {
@@ -59,6 +71,13 @@ container.columns.firstContainer {
   height: 160px;
 }
 
+.midTitle {
+  font-family: 'Roboto Slab', serif;
+  font-size: 50px;
+  font-weight: bold;
+  color: white;
+}
+
 div.column.is-one-third.skills {
   background: #696969;
   background: linear-gradient(to bottom right, #696969, #808080);
@@ -86,6 +105,7 @@ div.column.is-two-thirds.about {
   background-image: url('../assets/laptop2.jpg');
   background-size: cover;
   background-repeat: no-repeat;
+  padding-top: 0;
 }
 
 .svg-inline--fa {
