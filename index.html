@@ -9,67 +9,132 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.min.css">
     <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
+    <script type="text/javascript" src="./js/app.js"></script>
+    <script type="text/javascript" src="/node_modules/bulma-extensions/bulma-carousel/dist/bulma-carousel.min.js"></script>
   </head>
   <body>
-    <section class="hero is-bold is-medium">
-  <!-- Hero head: will stick at the top -->
-      <div class="hero-head">
-        <nav class="navbar">
-          <div class="container">
-            <div class="navbar-brand">
-              <a class="navbar-item">
-                <img src="" alt="Logo">
-              </a>
-              <span class="navbar-burger burger" data-target="navbarMenuHeroA">
-                <span></span>
-                <span></span>
-                <span></span>
-              </span>
+    <section class="parallax hero is-bold is-medium firstSection">
+    <!-- Hero head: will stick at the top -->
+        <div class="hero-head">
+          <nav class="navbar">
+            <div class="container">
+              <div class="navbar-brand">
+                <a class="navbar-item">
+                  <img src="" alt="Logo">
+                </a>
+                <span class="navbar-burger burger" data-target="navbarMenuHeroA">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </div>
+              <div id="navbarMenuHeroA" class="navbar-menu">
+                <div class="navbar-end">
+                  <a class="navbar-item">
+                    About Me
+                  </a>
+                  <a class="navbar-item">
+                    Some of my work
+                  </a>
+                  <a class="navbar-item">
+                    Other Stuff
+                  </a>
+                  <a class="navbar-item">
+                    Contact Me
+                  </a>
+                </div>
+              </div>
             </div>
-            <div id="navbarMenuHeroA" class="navbar-menu">
-              <div class="navbar-end">
-                <a class="navbar-item">
-                  About Me
-                </a>
-                <a class="navbar-item">
-                  Some of my work
-                </a>
-                <a class="navbar-item">
-                  Other Stuff
-                </a>
-                <a class="navbar-item">
-                  Contact Me
-                </a>
+          </nav>
+        </div>
+
+    <!-- Hero content: will be in the middle -->
+        <div class="hero-body">
+          <div class="container">
+            <div class="columns">
+              <!-- <div class="column is-3 has-text-centered">
+                <img id="profilePic" src="assets/profilePic.jpg" alt="profilePic">
+              </div> -->
+              <div class="column is-10 is-offset-1 has-text-centered">
+                <h1 id="mainTitle" class="title">
+                  petemabennett.com
+                </h1>
+                <h2 class="subtitle mainSubtitle">
+                  Hello, I'm Pete, nice to meet you...
+                </h2>
+              </div>
+
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="columns secondSection">
+
+        <div class="column is-10 is-offset-1 about">
+          <div class="columns is-multiline is-centered">
+            <div class="columns is-multiline">
+              <div class="column is-5">
+              </div>
+              <div class="column is-2">
+                <div class="triangle-down1">
+                </div>
+              </div>
+              <div class="column is-5">
               </div>
             </div>
           </div>
-        </nav>
-      </div>
 
-  <!-- Hero content: will be in the middle -->
-      <div class="hero-body">
-        <div class="container">
-          <div class="columns">
-            <div class="column is-3 has-text-centered">
-              <img id="profilePic" src="assets/profilePic.jpg" alt="profilePic">
+          <div class="columns is-multiline">
+            <div class="column is-one-third">
             </div>
-            <div class="column is-9 has-text-centered">
-              <h1 id="mainTitle" class="title">
-                petemabennett.com
-              </h1>
-              <h2 class="subtitle mainSubtitle">
-                Hello, I'm Pete, nice to meet you...
+            <div class="column is-one-third has-text-centered">
+              <h2 class="subtitle aboutSubtitle">
+                ABOUT ME
               </h2>
             </div>
+            <div class="column is-one-third">
+            </div>
+            <div class="column is-one-third">
+            </div>
+            <div class="column is-one-third is-narrow">
+              <img id="profilePic" src="assets/profilePic.jpg" alt="profilePic">
+            </div>
+            <div class="column is-one-third">
+            </div>
+            <div class="column is-1">
+            </div>
+            <div class="column is-10 aboutText">
+              <p>I’m a junior web developer and former freelance TV producer and news journalist.
+                With more than 15 years experience in creative industries under my belt, I’ve now
+                set my sights on combining these skills with twenty-first century tech.</p>
+              </br>
 
+              <p>While my interest in computers dates back to receiving an Amiga 500 at some
+                point in the early 1990s, I had never imagined my career would lead down a technological
+                path until recently. After seeing close family and friends entering the world of
+                development I decided to look into it myself. An online course or two later,
+                I was hooked on coding and my journey towards becoming a developer was set.</p>
+              </br>
+
+              <p>The excitement of learning something new every day and the immense satisfaction
+                of overcoming problems have sparked an enthusiasm I’ve not felt professionally for years.</p>
+              </br>
+
+              <p>With the confidence and training that General Assembly have instilled in
+                me I’m eager to make the move into a team that will help me develop personally
+                and draw on the professional experience I have. With my background in the
+                media I’d be keen to continue in this field but my mind is open to
+                opportunities across industries.</p>
+            </div>
+            <div class="column is-1">
+            </div>
           </div>
         </div>
-      </div>
     </section>
-
-    <main>
-      <container class="columns firstContainer">
-        <div class="column is-one-third skills has-text-centered is-multiline">
+    <section class="thirdSection">
+      <div class="columns is-multiline">
+        <div class="column is-8 is-offset-2 skills has-text-centered is-multiline">
           <div class="columns is-multiline">
             <div class="column is-5">
             </div>
@@ -77,7 +142,6 @@
               <div class="triangle-down1">
               </div>
             </div>
-            <!-- <div class="column is-2 is-offset-5"></div> -->
             <div class="column is-5">
             </div>
           </div>
@@ -141,171 +205,50 @@
             </div>
           </div>
         </div>
-        <div class="column is-two-thirds about">
-          <div class="columns is-multiline is-centered">
-            <div class="column is-5">
-            </div>
-            <div class="column is-2 has-text-centered">
-              <div class="triangle-down2">
+      </div>
+    </section>
+    <section class="fourthSection">
+      <div class="columns">
+        <div class="column is-one-fifth">
+        </div>
+        <div class="column is-three-fifths">
+          <div class='carousel carousel-animated carousel-animate-slide'>
+            <div class='carousel-container'>
+              <div class='carousel-item has-background is-active'>
+                <img class="is-background" src="https://wikiki.github.io/images/merry-christmas.jpg" alt="" width="640" height="310" />
+                <div class="title">Merry Christmas</div>
+              </div>
+              <div class='carousel-item has-background'>
+                <img class="is-background" src="https://wikiki.github.io/images/singer.jpg" alt="" width="640" height="310" />
+                <div class="title">Original Gift: Offer a song with <a href="https://lasongbox.com" target="_blank">La Song Box</a></div>
+              </div>
+              <div class='carousel-item has-background'>
+                <img class="is-background" src="https://wikiki.github.io/images/sushi.jpg" alt="" width="640" height="310" />
+                <div class="title">Sushi time</div>
+              </div>
+              <div class='carousel-item has-background'>
+                <img class="is-background" src="https://wikiki.github.io/images/life.jpg" alt="" width="640" height="310" />
+                <div class="title">Life</div>
               </div>
             </div>
-            <!-- <div class="column is-2 is-offset-5"></div> -->
-            <div class="column is-5">
+            <div class="carousel-navigation">
+              <div class="carousel-nav-left">
+                <i class="fa fa-chevron-left" aria-hidden="true"></i>
+              </div>
+              <div class="carousel-nav-right">
+                <i class="fa fa-chevron-right" aria-hidden="true"></i>
+              </div>
             </div>
           </div>
-
-          <div class="columns is-multiline">
-            <div class="column is-one-third">
-            </div>
-            <div class="column is-one-third has-text-centered">
-              <h2 class="subtitle aboutSubtitle">
-                ABOUT ME
-              </h2>
-            </div>
-            <div class="column is-one-third">
-            </div>
-            <div class="column is-1">
-            </div>
-            <div class="column is-10 aboutText">
-              <p>I’m a junior web developer and former freelance TV producer and news journalist.
-                With more than 15 years experience in creative industries under my belt, I’ve now
-                set my sights on combining these skills with twenty-first century tech.</p>
-              </br>
-
-              <p>While my interest in computers dates back to receiving an Amiga 500 at some
-                point in the early 1990s, I had never imagined my career would lead down a technological
-                path until recently. After seeing close family and friends entering the world of
-                development I decided to look into it myself. An online course or two later,
-                I was hooked on coding and my journey towards becoming a developer was set.</p>
-              </br>
-
-              <p>The excitement of learning something new every day and the immense satisfaction
-                of overcoming problems have sparked an enthusiasm I’ve not felt professionally for years.</p>
-              </br>
-
-              <p>With the confidence and training that General Assembly have instilled in
-                me I’m eager to make the move into a team that will help me develop personally
-                and draw on the professional experience I have. With my background in the
-                media I’d be keen to continue in this field but my mind is open to
-                opportunities across industries.</p>
-            </div>
-            <div class="column is-1">
-            </div>
-          </div>
+  
         </div>
 
-      </container>
-
-      <div class="mid-section">
-        <div class="container">
-          <div class="columns is-vcentered">
-            <!-- <div class="column is-11">
-            </div> -->
-            <div class="column is-two-thirds">
-              <h2 class="midTitle">See some of my stuff below</h1>
-            </div>
-            <div class="column is-one-third">
-            </div>
-            <!-- <div class="column is-11">
-            </div> -->
-          </div>
+        <div class="column is-one-fifth">
         </div>
       </div>
-      <section>
-        <container class="secondContainer">
-          <div class="columns is-multiline">
-            <div class="column is-two-thirds">
-            </div>
-            <div class="column is-one-third">
-              <h2>My Work</h2>
-            </div>
-            <div class="column is-2">
-            </div>
-            <div class="column is-3">
-              <p>Words</p>
-            </div>
-            <div class="column is-1">
-            </div>
-            <div class="column is-4">
-              <div class="card">
-                <div class="card-image">
-                  <figure class="image is-4by3">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-48x48">
-                        <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                      </figure>
-                    </div>
-                    <div class="media-content">
-                      <p class="title is-4">John Smith</p>
-                      <p class="subtitle is-6">@johnsmith</p>
-                    </div>
-                  </div>
-
-                  <div class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                    <a href="#">#css</a> <a href="#">#responsive</a>
-                    <br>
-                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="column is-2">
-            </div>
-            <div class="column is-2">
-            </div>
-            <div class="column is-4">
-              <div class="card">
-                <div class="card-image">
-                  <figure class="image is-4by3">
-                    <img src="https://bulma.io/images/placeholders/1280x960.png" alt="Placeholder image">
-                  </figure>
-                </div>
-                <div class="card-content">
-                  <div class="media">
-                    <div class="media-left">
-                      <figure class="image is-48x48">
-                        <img src="https://bulma.io/images/placeholders/96x96.png" alt="Placeholder image">
-                      </figure>
-                    </div>
-                    <div class="media-content">
-                      <p class="title is-4">John Smith</p>
-                      <p class="subtitle is-6">@johnsmith</p>
-                    </div>
-                  </div>
-                  <div class="content">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                    Phasellus nec iaculis mauris. <a>@bulmaio</a>.
-                    <a href="#">#css</a> <a href="#">#responsive</a>
-                    <br>
-                    <time datetime="2016-1-1">11:09 PM - 1 Jan 2016</time>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="column is-1">
-            </div>
-            <div class="column is-3">
-              <p>Words</p>
-            </div>
-            <div class="column is-2">
-            </div>
-          </div>
-
-        </container>
-      </section>
 
 
-
-
-
-    </main>
+    </section>
 
 
 
