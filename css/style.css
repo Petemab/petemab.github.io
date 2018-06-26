@@ -7,17 +7,15 @@ p {
 .parallax {
   background: #5E1114;
   background: linear-gradient(to bottom right, #5E1114, red);
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
   height: 100vh;
-  position: relative;
   width: 100vw; }
   .parallax a.navbar-item {
     font-family: 'Roboto', sans-serif;
     color: white; }
-  .parallax #mainTitle {
+  .parallax .hero-body {
+    display: flex;
+    justify-content: center; }
+  .parallax .title.mainTitle {
     font-size: 85px;
     color: white;
     border: solid;
@@ -60,13 +58,18 @@ p {
     border-radius: 50%;
     border: solid black;
     height: 160px; }
-  .secondSection p {
-    font-size: 18px;
-    color: black; }
+  .secondSection .aboutText {
+    justify-content: center; }
+    .secondSection .aboutText p {
+      font-size: 18px;
+      color: black; }
 
 .thirdSection {
   background: #696969;
   background: linear-gradient(to bottom right, #424949, #808080);
+  padding-top: 0;
+  height: 100vh;
+  width: 100vw;
   padding-top: 0; }
   .thirdSection h2.subtitle.skillsSubtitle {
     color: white;
@@ -89,7 +92,6 @@ p {
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  position: relative;
   width: 100vw;
   padding-top: 0;
   overflow-x: hidden;
@@ -115,5 +117,41 @@ p {
   .fourthSection .content {
     font-family: 'Roboto', sans-serif;
     color: black; }
+
+.fifthSection {
+  background: #696969;
+  background: linear-gradient(to bottom right, #424949, #808080);
+  padding-top: 0;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 0; }
+  .fifthSection h2.subtitle.moreSubtitle {
+    color: white;
+    font-weight: bold;
+    border: solid;
+    font-size: 35px; }
+
+.sixthSection {
+  background: #5E1114;
+  background: linear-gradient(to bottom right, #5E1114, red);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .sixthSection h2.subtitle.contactSubtitle {
+    color: white;
+    font-weight: bold;
+    border: solid;
+    font-size: 35px; }
+  .sixthSection .svg-inline--fa {
+    color: white; }
+  .sixthSection p {
+    color: white; }
+
+@media only screen and (max-width: 480px) {
+  .mainTitle {
+    font-size: 25px; } }
+@media only screen and (max-width: 768px) {
+  .mainTitle {
+    font-size: 40px; } }
 
 /*# sourceMappingURL=style.css.map */
