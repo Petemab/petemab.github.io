@@ -104,7 +104,7 @@ p {
 
 
 .fourthSection {
-  background: linear-gradient(to bottom right, #5E1114, red);
+  background-image: url('../assets/projectPic.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -121,6 +121,26 @@ p {
     font-weight: bold;
     border: solid;
     font-size: 35px;
+  }
+  p {
+    color: black;
+  }
+  .card {
+    border: solid black 3px;
+  }
+  .card-image {
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 300px;
+  }
+  .card-content {
+    background: #696969;
+    background: linear-gradient(to bottom right, #424949, #808080);
+  }
+  .content {
+    font-family: 'Roboto', sans-serif;
+    color: black;
   }
 }
 
