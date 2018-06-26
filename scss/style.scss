@@ -1,3 +1,5 @@
+
+
 .title, .subtitle{
   font-family: 'Roboto Slab', serif;
 }
@@ -100,6 +102,27 @@ p {
   }
 }
 
+
+.fourthSection {
+  background: linear-gradient(to bottom right, #5E1114, red);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+  width: 100vw;
+  padding-top: 0;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px;
+  h2.subtitle.workSubtitle {
+    color: black;
+    font-weight: bold;
+    border: solid;
+    font-size: 35px;
+  }
+}
 
 
 // .wrapper {

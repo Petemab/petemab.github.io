@@ -1,7 +1,7 @@
-window.addEventListener('DOMContentLoaded', function(){
+document.addEventListener('DOMContentLoaded', () => {
 
 
-  var carousels = bulmaCarousel.attach();
+  // var carousels = bulmaCarousel.attach();
 
 
 });
