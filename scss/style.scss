@@ -150,6 +150,7 @@ p {
     font-weight: bold;
     border: solid;
     font-size: 35px;
+    padding-bottom: 5px;
   }
   p {
     color: white;
@@ -162,10 +163,12 @@ p {
       position: relative;
       .slick-slide img {
         height: 500px;
+        width: 750px;
         padding-bottom: 25px;
       }
       .caption {
         text-align: center;
+        background-color: rgba(255, 255, 255, 0.5);
         h2{
         font-family: 'Roboto Slab', serif;
         font-weight: bold;
@@ -179,13 +182,6 @@ p {
         }
       }
     }
-    // .slide--has-caption:hover .caption {
-    // visibility: visible!important;
-    // opacity: 1;
-    // cursor: pointer;
-    // pointer-events: none;
-    // z-index: 2;
-    // }
   }
 }
 

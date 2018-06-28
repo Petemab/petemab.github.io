@@ -112,7 +112,8 @@ p {
     color: white;
     font-weight: bold;
     border: solid;
-    font-size: 35px; }
+    font-size: 35px;
+    padding-bottom: 5px; }
   .fourthSection p {
     color: white; }
   .fourthSection .workCarousel .slick-slide {
@@ -120,9 +121,11 @@ p {
     position: relative; }
     .fourthSection .workCarousel .slick-slide .slick-slide img {
       height: 500px;
+      width: 750px;
       padding-bottom: 25px; }
     .fourthSection .workCarousel .slick-slide .caption {
-      text-align: center; }
+      text-align: center;
+      background-color: rgba(255, 255, 255, 0.5); }
       .fourthSection .workCarousel .slick-slide .caption h2 {
         font-family: 'Roboto Slab', serif;
         font-weight: bold;
