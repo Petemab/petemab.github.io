@@ -9,6 +9,8 @@ p {
   background: linear-gradient(to bottom right, #5E1114, red);
   height: 100vh;
   width: 100vw; }
+  .parallax .heroCon {
+    padding-top: 5%; }
   .parallax a.navbar-item {
     font-family: 'Roboto', sans-serif;
     color: white; }
@@ -34,63 +36,9 @@ p {
   height: 0;
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
-  border-top: 50px solid #B0181E; }
+  border-top: 50px solid #c72e2a; }
 
 .secondSection {
-  background-image: url("../assets/laptop2.jpg");
-  background-attachment: fixed;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  height: 100vh;
-  position: relative;
-  width: 100vw;
-  padding-top: 0;
-  overflow-x: hidden;
-  overflow-y: auto;
-  perspective: 2px; }
-  .secondSection h2.subtitle.aboutSubtitle {
-    color: black;
-    font-weight: bold;
-    border: solid;
-    font-size: 35px; }
-  .secondSection #profilePic {
-    border-radius: 50%;
-    border: solid black;
-    height: 160px; }
-  .secondSection .aboutText {
-    justify-content: center; }
-    .secondSection .aboutText p {
-      font-size: 18px;
-      color: black; }
-
-.thirdSection {
-  background: #696969;
-  background: linear-gradient(to bottom right, #424949, #808080);
-  padding-top: 0;
-  height: 100vh;
-  width: 100vw;
-  padding-top: 0; }
-  .thirdSection h2.subtitle.skillsSubtitle {
-    color: white;
-    font-weight: bold;
-    border: solid;
-    font-size: 35px; }
-  .thirdSection h3 {
-    color: white;
-    font-weight: bold;
-    font-size: 30px;
-    font-family: 'Roboto', sans-serif; }
-  .thirdSection .svg-inline--fa {
-    font-size: 50px;
-    color: white; }
-  .thirdSection i {
-    font-size: 50px;
-    color: white; }
-  .thirdSection p {
-    color: white; }
-
-.fourthSection {
   background-image: url("../assets/projectPic.jpg");
   background-attachment: fixed;
   background-position: center;
@@ -102,46 +50,133 @@ p {
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 2px; }
-  .fourthSection h2.subtitle.workSubtitle {
+  .secondSection h2.subtitle.aboutSubtitle {
     color: black;
     font-weight: bold;
     border: solid;
-    font-size: 35px; }
-  .fourthSection p {
-    color: black; }
-  .fourthSection .card {
-    border: solid black 3px; }
-  .fourthSection .card-image {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 300px; }
-  .fourthSection .card-content {
-    background: #696969;
-    background: linear-gradient(to bottom right, #424949, #808080); }
-  .fourthSection .content {
-    font-family: 'Roboto', sans-serif;
-    color: black; }
+    font-size: 35px;
+    margin-top: 10px; }
+  .secondSection #profilePic {
+    border-radius: 50%;
+    border: solid black;
+    height: 200px; }
+  .secondSection .aboutText {
+    justify-content: center; }
+    .secondSection .aboutText p {
+      font-size: 19px;
+      color: black; }
 
-.fifthSection {
+.thirdSection {
   background: #696969;
   background: linear-gradient(to bottom right, #424949, #808080);
   padding-top: 0;
-  height: 100vh;
-  width: 100vw;
-  padding-top: 0; }
-  .fifthSection h2.subtitle.moreSubtitle {
+  height: 100%;
+  width: 100%;
+  padding-bottom: 100px; }
+  .thirdSection .triangle-down2 {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid white; }
+  .thirdSection h2.subtitle.skillsSubtitle {
     color: white;
     font-weight: bold;
     border: solid;
     font-size: 35px; }
+  .thirdSection h3 {
+    color: white;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Roboto Slab', serif; }
+  .thirdSection .svg-inline--fa {
+    font-size: 50px;
+    color: white; }
+  .thirdSection i {
+    font-size: 50px;
+    color: white; }
+  .thirdSection p {
+    color: white; }
+
+.fourthSection {
+  padding-top: 10px;
+  background: #5E1114;
+  background: linear-gradient(to bottom right, #5E1114, red); }
+  .fourthSection .triangle-down3 {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid #707272; }
+  .fourthSection h2.subtitle.workSubtitle {
+    color: white;
+    font-weight: bold;
+    border: solid;
+    font-size: 35px; }
+  .fourthSection p {
+    color: white; }
+  .fourthSection .workCarousel .slick-slide {
+    padding: 10px;
+    position: relative; }
+    .fourthSection .workCarousel .slick-slide .slick-slide img {
+      height: 500px;
+      padding-bottom: 25px; }
+    .fourthSection .workCarousel .slick-slide .caption {
+      text-align: center; }
+      .fourthSection .workCarousel .slick-slide .caption h2 {
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        font-size: 30px;
+        color: white; }
+      .fourthSection .workCarousel .slick-slide .caption p {
+        font-family: 'Roboto', sans-serif;
+        font-size: 19px;
+        color: white; }
+
+.fifthSection {
+  background-image: url("../assets/collage.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  width: 100vw;
+  padding-top: 10px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  perspective: 2px; }
+  .fifthSection .triangle-down4 {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid black; }
+  .fifthSection h2.subtitle.moreSubtitle {
+    color: black;
+    font-weight: bold;
+    border: solid;
+    font-size: 35px; }
+  .fifthSection .moreBoxCont {
+    padding-top: 10%; }
+    .fifthSection .moreBoxCont .moreBox {
+      justify-content: left; }
+      .fifthSection .moreBoxCont .moreBox p {
+        color: black;
+        font-size: 18px; }
 
 .sixthSection {
   background: #5E1114;
   background: linear-gradient(to bottom right, #5E1114, red);
   background-position: center;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  padding-top: 10px; }
+  .sixthSection .triangle-down5 {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid white; }
   .sixthSection h2.subtitle.contactSubtitle {
     color: white;
     font-weight: bold;

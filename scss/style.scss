@@ -19,6 +19,9 @@ p {
   height: 100vh;
   // position: relative;
   width: 100vw;
+  .heroCon {
+    padding-top: 5%;
+  }
   a.navbar-item {
     font-family: 'Roboto', sans-serif;
     color: white;
@@ -49,17 +52,17 @@ p {
 	height: 0;
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
-	border-top: 50px solid #B0181E;
+	border-top: 50px solid #c72e2a;
 }
 
 .secondSection {
-  background-image: url('../assets/laptop2.jpg');
+  background-image: url('../assets/projectPic.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   height: 100vh;
-  position: relative;
+  // position: relative;
   width: 100vw;
   padding-top: 0;
   overflow-x: hidden;
@@ -70,16 +73,17 @@ p {
     font-weight: bold;
     border: solid;
     font-size: 35px;
+    margin-top: 10px;
   }
   #profilePic {
     border-radius: 50%;
     border: solid black;
-    height: 160px;
+    height: 200px;
   }
   .aboutText {
     justify-content: center;
     p {
-      font-size: 18px;
+      font-size: 19px;
       color: black;
     }
   }
@@ -91,11 +95,18 @@ p {
   background: #696969;
   background: linear-gradient(to bottom right, #424949, #808080);
   padding-top: 0;
-  height: 100vh;
+  height: 100%;
   // position: relative;
-  width: 100vw;
-  padding-top: 0;
+  width: 100%;
+  padding-bottom: 100px;
   // position: fixed;
+  .triangle-down2 {
+    width: 0;
+  	height: 0;
+  	border-left: 25px solid transparent;
+  	border-right: 25px solid transparent;
+  	border-top: 50px solid white;
+  }
   h2.subtitle.skillsSubtitle {
     color: white;
     font-weight: bold;
@@ -106,7 +117,7 @@ p {
     color: white;
     font-weight: bold;
     font-size: 30px;
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Roboto Slab', serif;
   }
   .svg-inline--fa {
     font-size: 50px;
@@ -124,7 +135,62 @@ p {
 
 
 .fourthSection {
-  background-image: url('../assets/projectPic.jpg');
+  padding-top: 10px;
+  background:  #5E1114;
+  background: linear-gradient(to bottom right, #5E1114, red);
+  .triangle-down3 {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid #707272;
+  }
+  h2.subtitle.workSubtitle {
+    color: white;
+    font-weight: bold;
+    border: solid;
+    font-size: 35px;
+  }
+  p {
+    color: white;
+  }
+  .workCarousel{
+    // border: black 3px solid;
+    .slick-slide {
+
+      padding: 10px;
+      position: relative;
+      .slick-slide img {
+        height: 500px;
+        padding-bottom: 25px;
+      }
+      .caption {
+        text-align: center;
+        h2{
+        font-family: 'Roboto Slab', serif;
+        font-weight: bold;
+        font-size: 30px;
+        color: white;
+        }
+        p {
+          font-family: 'Roboto', sans-serif;
+          font-size: 19px;
+          color: white;
+        }
+      }
+    }
+    // .slide--has-caption:hover .caption {
+    // visibility: visible!important;
+    // opacity: 1;
+    // cursor: pointer;
+    // pointer-events: none;
+    // z-index: 2;
+    // }
+  }
+}
+
+.fifthSection {
+  background-image: url('../assets/collage.jpg');
   background-attachment: fixed;
   background-position: center;
   background-repeat: no-repeat;
@@ -132,52 +198,35 @@ p {
   height: 100vh;
   // position: relative;
   width: 100vw;
-  padding-top: 0;
+  padding-top: 10px;
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 2px;
-  h2.subtitle.workSubtitle {
+  .triangle-down4 {
+    width: 0;
+    height: 0;
+    border-left: 25px solid transparent;
+    border-right: 25px solid transparent;
+    border-top: 50px solid black;
+  }
+  h2.subtitle.moreSubtitle {
     color: black;
     font-weight: bold;
     border: solid;
     font-size: 35px;
   }
-  p {
-    color: black;
-  }
-  .card {
-    border: solid black 3px;
-  }
-  .card-image {
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-    height: 300px;
-  }
-  .card-content {
-    background: #696969;
-    background: linear-gradient(to bottom right, #424949, #808080);
-  }
-  .content {
-    font-family: 'Roboto', sans-serif;
-    color: black;
+  .moreBoxCont{
+    padding-top: 10%;
+
+  .moreBox {
+    justify-content: left;
+    // background-color: rgba(0,0,0,0.2);
+    p {
+      color: black;
+      font-size: 18px;
+    }
   }
 }
-
-.fifthSection {
-  background: #696969;
-  background: linear-gradient(to bottom right, #424949, #808080);
-  padding-top: 0;
-  height: 100vh;
-  // position: relative;
-  width: 100vw;
-  padding-top: 0;
-  h2.subtitle.moreSubtitle {
-    color: white;
-    font-weight: bold;
-    border: solid;
-    font-size: 35px;
-  }
 }
 
 .sixthSection {
@@ -187,6 +236,14 @@ p {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  padding-top: 10px;
+  .triangle-down5 {
+  width: 0;
+  height: 0;
+  border-left: 25px solid transparent;
+  border-right: 25px solid transparent;
+  border-top: 50px solid white;
+  }
 
   h2.subtitle.contactSubtitle {
     color: white;
