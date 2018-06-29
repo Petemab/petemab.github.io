@@ -4,6 +4,9 @@
 p {
   font-family: 'Roboto', sans-serif; }
 
+#navbarMenuHeroA {
+  background-color: transparent; }
+
 .parallax {
   background: #5E1114;
   background: linear-gradient(to bottom right, #5E1114, red);
@@ -78,7 +81,7 @@ p {
     height: 0;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
-    border-top: 50px solid white; }
+    border-top: 50px solid #e0e0e0; }
   .thirdSection h2.subtitle.skillsSubtitle {
     color: white;
     font-weight: bold;
@@ -152,7 +155,7 @@ p {
     height: 0;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
-    border-top: 50px solid black; }
+    border-top: 50px solid #c82e2a; }
   .fifthSection h2.subtitle.moreSubtitle {
     color: black;
     font-weight: bold;
@@ -164,7 +167,7 @@ p {
       justify-content: left; }
       .fifthSection .moreBoxCont .moreBox p {
         color: black;
-        font-size: 25px; }
+        font-size: 20px; }
 
 .sixthSection {
   background: #5E1114;
@@ -178,7 +181,7 @@ p {
     height: 0;
     border-left: 25px solid transparent;
     border-right: 25px solid transparent;
-    border-top: 50px solid white; }
+    border-top: 50px solid #e1e1df; }
   .sixthSection h2.subtitle.contactSubtitle {
     color: white;
     font-weight: bold;
