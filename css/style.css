@@ -52,7 +52,8 @@ p {
   padding-top: 0;
   overflow-x: hidden;
   overflow-y: auto;
-  perspective: 2px; }
+  perspective: 2px;
+  padding-bottom: 50px; }
   .secondSection h2.subtitle.aboutSubtitle {
     color: black;
     font-weight: bold;
@@ -104,7 +105,8 @@ p {
 .fourthSection {
   padding-top: 10px;
   background: #5E1114;
-  background: linear-gradient(to bottom right, #5E1114, red); }
+  background: linear-gradient(to bottom right, #5E1114, red);
+  padding-bottom: 50px; }
   .fourthSection .triangle-down3 {
     width: 0;
     height: 0;
@@ -193,10 +195,10 @@ p {
     color: white; }
 
 @media only screen and (max-width: 480px) {
-  .mainTitle {
+  .title.mainTitle {
     font-size: 25px; } }
 @media only screen and (max-width: 768px) {
-  .mainTitle {
+  .title.mainTitle {
     font-size: 40px; } }
 
 /*# sourceMappingURL=style.css.map */

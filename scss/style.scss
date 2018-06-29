@@ -71,6 +71,7 @@ p {
   overflow-x: hidden;
   overflow-y: auto;
   perspective: 2px;
+  padding-bottom: 50px;
   h2.subtitle.aboutSubtitle {
     color: black;
     font-weight: bold;
@@ -142,6 +143,7 @@ p {
   padding-top: 10px;
   background:  #5E1114;
   background: linear-gradient(to bottom right, #5E1114, red);
+  padding-bottom: 50px;
   .triangle-down3 {
   width: 0;
   height: 0;
@@ -264,11 +266,11 @@ p {
 
 
 @media only screen and (max-width: 480px) {
-  .mainTitle { font-size: 25px; }
+  .title.mainTitle { font-size: 25px; }
 }
 
 @media only screen and (max-width: 768px) {
-  .mainTitle { font-size: 40px; }
+  .title.mainTitle { font-size: 40px; }
 }
 
 // @media only screen and (min-width: 769px) {
