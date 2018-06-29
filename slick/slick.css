@@ -89,7 +89,10 @@
 .slick-slide img
 {
     display: block;
-    height: 500px;
+    /* height: 500px; */
+    height: calc(80vh - 100px);
+    width: auto;
+    margin: 0 auto; /* it centers any block level element */
 
 }
 .slick-slide.slick-loading img
