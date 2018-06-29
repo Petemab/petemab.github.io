@@ -124,8 +124,7 @@ p {
       width: 750px;
       padding-bottom: 25px; }
     .fourthSection .workCarousel .slick-slide .caption {
-      text-align: center;
-      background-color: rgba(255, 255, 255, 0.5); }
+      text-align: center; }
       .fourthSection .workCarousel .slick-slide .caption h2 {
         font-family: 'Roboto Slab', serif;
         font-weight: bold;
@@ -165,7 +164,7 @@ p {
       justify-content: left; }
       .fifthSection .moreBoxCont .moreBox p {
         color: black;
-        font-size: 18px; }
+        font-size: 25px; }
 
 .sixthSection {
   background: #5E1114;
