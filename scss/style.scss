@@ -34,11 +34,17 @@ p {
     justify-content: center;
   }
   .title.mainTitle {
-    font-size: 85px;
     color: white;
     border: solid;
     padding-bottom: 15px;
     margin-bottom: 20px;
+    font-size: 85px;
+    @media (max-width: 480px) {
+      font-size: 20px;
+    }
+    @media (max-width: 768px) {
+      font-size: 40px;
+    }
   }
   h2.subtitle.mainSubtitle {
     color: white;
@@ -172,6 +178,7 @@ p {
         height: 500px;
         width: 750px;
         padding-bottom: 25px;
+
       }
       .caption {
         text-align: center;
@@ -265,13 +272,13 @@ p {
 
 
 
-@media only screen and (max-width: 480px) {
-  .title.mainTitle { font-size: 25px; }
-}
-
-@media only screen and (max-width: 768px) {
-  .title.mainTitle { font-size: 40px; }
-}
+// @media only screen and (max-width: 480px) {
+//   .parallax .title.mainTitle { font-size: 25px; }
+// }
+//
+// @media only screen and (max-width: 768px) {
+//   .parallax .title.mainTitle { font-size: 40px; }
+// }
 
 // @media only screen and (min-width: 769px) {
 //   body { background-color: green; }
