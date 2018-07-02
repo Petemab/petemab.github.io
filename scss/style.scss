@@ -39,11 +39,11 @@ p {
     padding-bottom: 15px;
     margin-bottom: 20px;
     font-size: 85px;
-    @media (max-width: 480px) {
-      font-size: 20px;
-    }
     @media (max-width: 768px) {
       font-size: 40px;
+    }
+    @media (max-width: 480px) {
+      font-size: 25px;
     }
   }
   h2.subtitle.mainSubtitle {
@@ -53,6 +53,12 @@ p {
     border-bottom: solid;
     border-left: solid;
     border-right: solid;
+    @media (max-width: 768px) {
+      font-size: 30px;
+    }
+    @media (max-width: 480px) {
+      font-size: 15px;
+    }
   }
 }
 
@@ -183,12 +189,17 @@ p {
       }
       .caption {
         text-align: center;
-
+        .captionWords{
+          padding-top: 20px;
+          padding-left: 20px;
+          padding-right: 20px;
+        }
         h2{
         font-family: 'Roboto Slab', serif;
         font-weight: bold;
         font-size: 30px;
         color: white;
+        padding-top: 30px;
         }
         p {
           font-family: 'Roboto', sans-serif;
