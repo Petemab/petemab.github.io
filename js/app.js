@@ -4,6 +4,14 @@ $(document).ready(function(){
     $('#navbarMenuHeroA, .navbar-burger').toggleClass('is-active');
   });
 
+  $('.aniview').AniView();
+
+  var options = {
+    animateThreshold: 5,
+    scrollPollInterval: 10
+  };
+  $('.aniview').AniView(options);
+
   $('.workCarousel').slick({
     dots: true,
     infinite: true,
