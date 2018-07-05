@@ -7,8 +7,8 @@ $(document).ready(function(){
   $('.aniview').AniView();
 
   var options = {
-    animateThreshold: 5,
-    scrollPollInterval: 10
+    animateThreshold: 0,
+    scrollPollInterval: 20
   };
   $('.aniview').AniView(options);
 
