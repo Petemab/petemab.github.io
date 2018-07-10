@@ -8,7 +8,7 @@ p {
   background-color: transparent; }
 
 .fast {
-  -vendor-animation-duration: 1s;
+  -vendor-animation-duration: 100ms;
   -vendor-animation-delay: 0s; }
 
 .parallax {
@@ -56,6 +56,9 @@ p {
   border-left: 25px solid transparent;
   border-right: 25px solid transparent;
   border-top: 50px solid #c72e2a; }
+  @media (max-width: 768px) {
+    .triangle-down1 {
+      margin-top: -25px; } }
 
 .secondSection {
   background-image: url("../assets/projectPic.jpg");

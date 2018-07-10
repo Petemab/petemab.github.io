@@ -13,7 +13,7 @@ p {
 }
 
 .fast {
-    -vendor-animation-duration: 1s;
+    -vendor-animation-duration: 100ms;
     -vendor-animation-delay: 0s;
 }
 
@@ -74,6 +74,9 @@ p {
 	border-left: 25px solid transparent;
 	border-right: 25px solid transparent;
 	border-top: 50px solid #c72e2a;
+  @media (max-width: 768px) {
+    margin-top: -25px;
+  }
 }
 
 .secondSection {
@@ -204,6 +207,7 @@ p {
       }
       .caption {
         text-align: center;
+
         .captionWords{
           padding-top: 20px;
         }

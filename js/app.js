@@ -7,8 +7,8 @@ $(document).ready(function(){
   $('.aniview').AniView();
 
   var options = {
-    animateThreshold: 100,
-    scrollPollInterval: 20
+    animateThreshold: 2,
+    scrollPollInterval: 5
   };
   $('.aniview').AniView(options);
 
@@ -20,7 +20,7 @@ $(document).ready(function(){
     centerMode: true,
     centerPadding: '100px',
     slidesToShow: 1,
-    slidesToScroll: 4,
+    slidesToScroll: 5,
     responsive: [
       {
         breakpoint: 768,
